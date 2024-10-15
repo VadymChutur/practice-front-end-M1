@@ -128,3 +128,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/\!\!\!\!08-2022-Frontend-36-20241015T122424Z-001
+*.zip
