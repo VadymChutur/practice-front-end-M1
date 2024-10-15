@@ -12,10 +12,9 @@ body {
   padding: 0;
 }
 
-h1{
-    color: #2f2f2f;
-
-    span{
-        color: teal;
-    }
+h1 {
+  color: #2f2f2f;
 }
+h1 span {
+  color: teal;
+}/*# sourceMappingURL=style.css.map */
