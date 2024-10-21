@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Outfit:regular,700);
 html,
 body {
   box-sizing: border-box;
@@ -13,10 +13,49 @@ body {
   padding: 0;
 }
 
-h1 {
-  font-family: "Roboto";
-  color: #2f2f2f;
+.box {
+  width: 1440px;
+  height: 100%;
+  background: #d5e1ef;
+  margin: 0 auto;
+  padding: 50px;
+  color: rgb(31, 49, 79);
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.19px;
+  text-align: center;
 }
-h1 span {
-  color: teal;
+.box .card {
+  width: 320px;
+  height: 497px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.box .card--picther img {
+  display: block;
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background-color: rgb(44, 125, 250);
+  background-size: 288px;
+  margin-bottom: 24px;
+}
+.box .card--content h1 {
+  width: 288px;
+  height: 56px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 16px;
+}
+.box .card--content p {
+  color: rgb(125, 136, 158);
+  width: 256px;
+  height: 57px;
+  margin: 16px auto;
 }/*# sourceMappingURL=style.css.map */
