@@ -21,13 +21,11 @@ body {
   margin: 0 auto;
   padding: 50px;
 
-  color: rgb(31, 49, 79);
   font-family: Outfit, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.19px;
-  text-align: center;
 
   .card {
     width: 320px;
@@ -49,9 +47,9 @@ body {
       }
     }
     &--content {
+      text-align: center;
       h1 {
-        width: 288px;
-        height: 56px;
+        color: rgb(31, 49, 79);
         font-size: 22px;
         font-weight: 700;
         line-height: 28px;
@@ -63,7 +61,7 @@ body {
         color: rgb(125, 136, 158);
         width: 256px;
         height: 57px;
-        margin: 16px auto;
+        margin: 0 auto;
       }
     }
   }
