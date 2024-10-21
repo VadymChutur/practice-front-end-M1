@@ -25,4 +25,8 @@ body {
   background: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.box .card .card--picther img {
+  width: 288px;
+  height: 288px;
 }/*# sourceMappingURL=style.css.map */
